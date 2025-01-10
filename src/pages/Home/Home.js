@@ -1,82 +1,161 @@
-import React,{useState} from 'react'
-
+import React, { useState } from 'react'
+import "../CSS/Customemarquee.css"
+import Card from '../Component/Card';
+import BarChart from "../Component/BarChart";
+import PieChart from "../Component/PieChart";
+import TableComponent from "../Component/TableComponent";
 const Home = () => {
   const [selectedOption, setSelectedOption] = useState("All");
 
   const handleChange = (event) => {
     setSelectedOption(event.target.value);
   };
+
+  const tableData = [
+    {
+      Gatepass_Type: "Returnable",
+      Created: "60",
+      Dispatched: "358",
+      Partial_Arrived: "1",
+      Arrived: "1419",
+      Cancelled: "157",
+    },
+    {
+      Gatepass_Type: "Non Returnable",
+      Created: "60",
+      Dispatched: "358",
+      Partial_Arrived: "1",
+      Arrived: "1419",
+      Cancelled: "157",
+    },
+    {
+      Gatepass_Type: "Job work",
+      Created: "60",
+      Dispatched: "358",
+      Partial_Arrived: "1",
+      Arrived: "1419",
+      Cancelled: "157",
+    },
+
+  ];
+
+  const cardData = [
+    {
+      title: "Today's Uploaded Data",
+      iconClass: "ri-space-ship-line",
+      counterValue: 0,
+      additionalClass: "bg-light-primary",
+    },
+    {
+      title: " This Week's Uploaded Data",
+      iconClass: "ri-user-line",
+      counterValue: 39,
+      additionalClass: "bg-light-success",
+    },
+    {
+      title: "This Month's Uploaded Data",
+      iconClass: "ri-money-dollar-box-line",
+      counterValue: 431,
+      additionalClass: "bg-light-info",
+    },
+    {
+      title: "This Year's Uploaded Data",
+      iconClass: "ri-money-dollar-box-line",
+      counterValue: 57,
+      additionalClass: "bg-light-info",
+    },
+  ];
+
+  const cardData2 = [
+    {
+      title: "Today's Uploaded Data",
+      iconClass: "ri-space-ship-line",
+      counterValue: 0,
+      additionalClass: "bg-light-primary",
+    },
+    {
+      title: " This Week's Uploaded Data",
+      iconClass: "ri-user-line",
+      counterValue: 39,
+      additionalClass: "bg-light-success",
+    },
+    {
+      title: "This Month's Uploaded Data",
+      iconClass: "ri-money-dollar-box-line",
+      counterValue: 431,
+      additionalClass: "bg-light-info",
+    } 
+  ];
+
+
   return (
     <div>
-        <div className="page-content">
+      <div className="page-content">
         <div className="container-fluid   d-flex align-items-center">
-            <div className="row ">
-              {/* Left Section */}
-              <div className="col-lg-6 col-md-6  d-flex flex-column " style={{ width: "40%",padding:"0" }}>
-                <div className="card">
-                  <div className="card-body">
+          <div className="row ">
+            {/* Left Section */}
+            <div className="col-lg-6 col-md-6  d-flex flex-column " style={{ width: "40%", padding: "0" }}>
+              <div className="card">
+                <div className="card-body">
 
 
 
-                    <h5>
-                      Congratulations 🎉 
-                      <sup className="blink" style={{ color: "red", fontSize: 17, top: 1 }}>
-                        <span id="lblreturnsupplier" />
-                      </sup>
-                    </h5>
-                    <p className="card-text font-small-3">
-                      Returnable Gatepass - You have won gold medal
-                    </p>
-                    <h3 className="" style={{ color: "#00CFE8" }}>
-                      Fast Delivery
+                  <h5>
+                    Congratulations 🎉
+                    <sup className="blink" style={{ color: "red", fontSize: 17, top: 1 }}>
+                      <span id="lblreturnsupplier" />
+                    </sup>
+                  </h5>
+                  <p className="card-text font-small-3">
+                    Returnable Gatepass - You have won gold medal
+                  </p>
+                  <h3 className="" style={{ color: "#00CFE8" }}>
+                    Fast Delivery
+                  </h3>
+                  <h3 className="">
+                    <h3  >
+                      Total day =
+
                     </h3>
-                    <h3 className="">
-                      <a href="javascript:void(0);">
-                        Total day =
-                        <span id="lblreturnday" />
-                      </a>
+                  </h3>
+                  <br />
+                  <br />
+                  <br />
+                  <h5>
+                    Congratulations 🎉
+                    <sup className="blink" style={{ color: "red", fontSize: 17, top: 1 }}>
+                      <span id="lbljobsupplier" />
+                    </sup>
+                  </h5>
+                  <p className="card-text font-small-3">
+                    Jobwork Gatepass - You have won gold medal
+                  </p>
+                  <h3 className="" style={{ color: "#00CFE8" }}>
+                    Fast Delivery
+                  </h3>
+                  <h3 className="">
+                    <h3  >
+                      Total day =
+
                     </h3>
-                    <br />
-                    <br />
-                    <br />
-                    <h5>
-                      Congratulations 🎉
-                      <sup className="blink" style={{ color: "red", fontSize: 17, top: 1 }}>
-                        <span id="lbljobsupplier" />
-                      </sup>
-                    </h5>
-                    <p className="card-text font-small-3">
-                      Jobwork Gatepass - You have won gold medal
-                    </p>
-                    <h3 className="" style={{ color: "#00CFE8" }}>
-                      Fast Delivery
-                    </h3>
-                    <h3 className="">
-                      <a href="javascript:void(0);">
-                        Total day =
-                        <span id="lbljobday" />
-                      </a>                                                                                                                                            
-                    </h3>
-                  </div>
+                  </h3>
                 </div>
-
-
-
               </div>
 
-              {/* Right Section */}
-              <div className="col-lg-6 col-md-12 d-flex flex-column" style={{ width: "60%" }}>
-                <div className="card " style={{height:"65%"}}>
-                  <div className="card-body text-center">
-                    <h3 className="card-title text-info" style={{ fontSize: 40, fontWeight: "bold", color: "#00CFE8", textAlign: "center" }}>Notice Board</h3>
-                    <marquee
-                      width="98%"
-                      direction="up"
-                      height="50%"
-                 
-                      style={{ fontSize: 20 }}
+
+
+            </div>
+
+            {/* Right Section */}
+            <div className="col-lg-6 col-md-12 d-flex flex-column" style={{ width: "60%" }}>
+              <div className="card " style={{ height: "110%" }}>
+                <div className="card-body text-center">
+                  <h3 className="card-title text-info" style={{ fontSize: 40, fontWeight: "bold", color: "#00CFE8", textAlign: "center" }}>Notice Board</h3>
+                  <div style={{ height: "230px", overflow: "hidden", whiteSpace: 'nowrap', width: '100%', textAlign: "left" }}
+                  >
+                    <div style={{ animation: 'scroll 10s linear infinite' }}
                     >
-                      <ul>
+                      <ul style={{ fontSize: '18px' }}>
                         <li>
                           Job Work Challan module.{" "}
                           <sup className="blink" style={{ color: "green" }}>
@@ -110,35 +189,117 @@ const Home = () => {
                           Ph No: 02752-287-503/536/550
                         </li>
                       </ul>
-                    </marquee>
-
-
+                    </div>
                   </div>
+
+
                 </div>
               </div>
             </div>
-            
           </div>
 
-          <div className="d-flex " style={{ }}>
-      {["All", "Returnable", "Non Returnable", "Job Work", "Cancelled"].map((option) => (
-        <div key={option} className="mx-3 d-flex align-items-center">
-          <input
-            type="radio"
-            id={option}
-            name="gatepass"
-            value={option}
-            checked={selectedOption === option}
-            onChange={handleChange}
-            style={{ accentColor: "#007bff",                transform: "scale(2.5)",marginRight:"15px"   }} // Add styling to radio buttons
-          />
-          <label htmlFor={option} style={{ marginLeft: "8px",   fontSize: "23px" }}>
-            {option}
-          </label>
         </div>
-      ))}
-    </div>
-    </div>
+        <div style={{ display: 'flex', gap: '10px', padding: "1%" }}>
+          <button
+            type="button"
+            className="btn btn-outline-primary custom-toggle"
+            data-bs-toggle="button"
+          >
+            <span className="icon-on">All</span>
+            <span className="icon-off">All</span>
+          </button>
+          <button
+            type="button"
+            className="btn btn-outline-secondary custom-toggle"
+            data-bs-toggle="button"
+          >
+            <span className="icon-on">Returnable</span>
+            <span className="icon-off">Returnable</span>
+          </button>
+          <button
+            type="button"
+            className="btn btn-outline-success custom-toggle active"
+            data-bs-toggle="button"
+          >
+            <span className="icon-on">Non Returnable</span>
+            <span className="icon-off">Non Returnable</span>
+          </button>
+          <button
+            type="button"
+            className="btn btn-soft-warning custom-toggle active"
+            data-bs-toggle="button"
+          >
+            <span className="icon-on">Job Work</span>
+            <span className="icon-off">Job Work</span>
+          </button>
+          <button
+            type="button"
+            className="btn btn-soft-danger custom-toggle"
+            data-bs-toggle="button"
+          >
+            <span className="icon-on">Cancelled</span>
+            <span className="icon-off">Cancelled</span>
+          </button>
+        </div>
+
+        <div className="d-flex">
+          {cardData.map((card, index) => (
+            <div key={index} style={{ flex: '1 1 30%', maxWidth: '30%', margin: '1px' }}>
+              <Card
+                title={card.title}
+                iconClass={card.iconClass}
+                counterValue={card.counterValue}
+                additionalClass={card.additionalClass}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="row">
+          <div className="col-lg-6 col-md-6  d-flex flex-column ">
+            <PieChart />
+          </div>
+          <div className="col-lg-6 col-md-6  d-flex flex-column ">
+            <BarChart />
+          </div>
+        </div>
+        <div className='card p-3 '>
+          <div className='card-body mb-2'>
+            <h3>Gatepass Analysis</h3>
+          </div>
+          <TableComponent data={tableData} />
+        </div>
+        <div className='p-2'>
+
+       
+        <div className="row">
+          <div className="col-lg-6 col-md-6  d-flex flex-column ">
+            <TableComponent data={tableData} />
+
+          </div>
+          <div className="col-lg-6 col-md-6  d-flex flex-column ">
+            <div className='card p-2 mb-5'>
+              <div className="d-flex p-1">
+                
+                  <div   className='card ' style={{width:"25%"}}  >
+                   <div className='row'> 
+                   <div className='col-lg-6 col-md-6'>
+                   <div className='card-title p-2'>kjhadsjkvgku</div>
+                   </div>
+                   <div className='col-lg-6 col-md-6'>
+                   <div className='card-body p-2'>kjhadsjkvgku</div>
+                   <div className='card-body p-2'>kjhadsjkvgku</div>
+
+                   </div>
+                   </div>
+                  
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
     </div>
   )
 }

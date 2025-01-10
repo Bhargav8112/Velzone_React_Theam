@@ -31,6 +31,7 @@ import Register from "../pages/Authentication/Register";
 // User Profile
 import UserProfile from "../pages/Authentication/user-profile";
 import Home from "../pages/Home/Home";
+// import Home from "../pages/";
 
   
 const authProtectedRoutes = [
@@ -39,9 +40,9 @@ const authProtectedRoutes = [
   {
     path: "/",
     exact: true,
-    component: <Navigate to="/dashboard" />,
+    component: <Navigate to="/Home" />,
   },
-  { path: "*", component: <Navigate to="/dashboard" /> },
+  { path: "*", component: <Navigate to="/Home" /> },
 ];
 
 const publicRoutes = [

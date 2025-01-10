@@ -1,0 +1,10 @@
+ 
+  @keyframes scroll {
+    from {
+      transform: translatey(100%);
+    }
+    to {
+      transform: translatey(-100%);
+    }
+  }
+ 

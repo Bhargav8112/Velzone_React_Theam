@@ -8,11 +8,11 @@ const Footer = () => {
                 <Container fluid>
                     <Row>
                         <Col sm={6}>
-                            {new Date().getFullYear()} © Velzon.
+                            {new Date().getFullYear()} © Gatepass.
                         </Col>
                         <Col sm={6}>
                             <div className="text-sm-end d-none d-sm-block">
-                                Design & Develop by Themesbrand
+                                Design & Develop by S.S. White Technologies INDIA PVT. LTD. - All rights Reserved
                             </div>
                         </Col>
                     </Row>

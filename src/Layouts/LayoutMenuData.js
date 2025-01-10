@@ -143,7 +143,7 @@ const Navdata = () => {
             id: "dashboard",
             label: "Dashboards",
             icon: "ri-dashboard-2-line",
-            link: "/#",
+            link: "/Home",
             stateVariables: isDashboard,
             click: function (e) {
                 e.preventDefault();
@@ -151,17 +151,7 @@ const Navdata = () => {
                 setIscurrentState('Dashboard');
                 updateIconSidebar(e);
             },
-            subItems: [
-                
             
-                {
-                    id: "Home",
-                    label: "Home",
-                    link: "/Home",
-                    parentId: "dashboard",
-                },
-                
-            ],
         },
      
 
