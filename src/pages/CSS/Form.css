@@ -1,0 +1,11 @@
+.responsive-btn {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  @media (min-width: 576px) {
+    .responsive-btn {
+      width: auto; /* Allows the button to take its natural width on medium screens and above */
+    }
+  }
+  

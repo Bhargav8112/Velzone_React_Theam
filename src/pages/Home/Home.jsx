@@ -4,6 +4,9 @@ import Card from '../Component/Card';
 import BarChart from "../Component/BarChart";
 import PieChart from "../Component/PieChart";
 import TableComponent from "../Component/TableComponent";
+import { Icons } from 'react-toastify';
+import { Icon } from 'leaflet';
+import CustomeCard from '../Component/CustomeCard';
 const Home = () => {
   const [selectedOption, setSelectedOption] = useState("All");
 
@@ -91,6 +94,24 @@ const Home = () => {
   return (
     <div>
       <div className="page-content">
+    <div className="d-flex" style={{ gap: '1%' ,padding: '0px' }}> 
+{cardData.map((card, index) => (
+<div 
+  key={index} 
+  style={{ 
+    flex: '1 1 30%', 
+    maxWidth: '30%', 
+  }}
+>
+  <Card
+    title={card.title}
+    iconClass={card.iconClass}
+    counterValue={card.counterValue}
+    additionalClass={card.additionalClass}
+  />
+</div>
+))}
+</div>
         <div className="container-fluid   d-flex align-items-center">
           <div className="row ">
             {/* Left Section */}
@@ -242,18 +263,6 @@ const Home = () => {
           </button>
         </div>
 
-        <div className="d-flex">
-          {cardData.map((card, index) => (
-            <div key={index} style={{ flex: '1 1 30%', maxWidth: '30%', margin: '1px' }}>
-              <Card
-                title={card.title}
-                iconClass={card.iconClass}
-                counterValue={card.counterValue}
-                additionalClass={card.additionalClass}
-              />
-            </div>
-          ))}
-        </div>
         <div className="row">
           <div className="col-lg-6 col-md-6  d-flex flex-column ">
             <PieChart />
@@ -278,22 +287,30 @@ const Home = () => {
           </div>
           <div className="col-lg-6 col-md-6  d-flex flex-column ">
             <div className='card p-2 mb-5'>
-              <div className="d-flex p-1">
-                
-                  <div   className='card ' style={{width:"25%"}}  >
-                   <div className='row'> 
-                   <div className='col-lg-6 col-md-6'>
-                   <div className='card-title p-2'>kjhadsjkvgku</div>
-                   </div>
-                   <div className='col-lg-6 col-md-6'>
-                   <div className='card-body p-2'>kjhadsjkvgku</div>
-                   <div className='card-body p-2'>kjhadsjkvgku</div>
+              <div className='row' >
 
-                   </div>
-                   </div>
-                  
-                  </div>
-               
+              <div className='card-title col'>Statistics</div>
+              <div className='card-title col' style={{ textAlign: "right" ,animation: "blink 1s infinite"}} >Last Gatepass Created -5 Hours Ago</div>
+              </div>
+              
+              <div className="d-flex p-1 gap-2"   > 
+               <CustomeCard iconClass={"fas fa-user"} status={"Returnable"} year={2005}  />
+               <CustomeCard iconClass={"fas fa-user"} status={"Returnable"} year={2005} />
+               <CustomeCard iconClass={"fas fa-user"} status={"Returnable"} year={2005} />
+               <CustomeCard iconClass={"fas fa-user"} status={"Returnable"} year={2005} />
+              </div>
+              <div className='card-body'>
+              <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.1404929253267!2d71.69248957774029!3d22.72889641862145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395947200573ab75%3A0x5a02e7dec812b110!2sS.S.%20White%20Technologies%20India!5e0!3m2!1sen!2sin!4v1737096487137!5m2!1sen!2sin"
+ title='sswhite'
+  height={450}
+  style={{ border: 0 ,width:"100%"}}
+  allowFullScreen=""
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+
+
               </div>
             </div>
           </div>
