@@ -7,6 +7,7 @@ import TableComponent from "../Component/TableComponent";
 import { Icons } from 'react-toastify';
 import { Icon } from 'leaflet';
 import CustomeCard from '../Component/CustomeCard';
+import CustomBtn from '../Component/CustomeBtn';
 const Home = () => {
   const [selectedOption, setSelectedOption] = useState("All");
 
@@ -89,7 +90,13 @@ const Home = () => {
       additionalClass: "bg-light-info",
     } 
   ];
-
+  const options = [
+    { id: 'success-outlined', label: 'All', style: 'success' },
+    { id: 'primary-outlined', label: 'Returnable', style: 'primary' },
+    { id: 'secondary-outlined', label: 'Non Returnable', style: 'secondary' },
+    { id: 'warning-outlined', label: 'ARRIVED', style: 'warning' },
+    { id: 'danger-outlined', label: 'CANCELLED', style: 'danger' },
+  ];
 
   return (
     <div>
@@ -221,46 +228,10 @@ const Home = () => {
 
         </div>
         <div style={{ display: 'flex', gap: '10px', padding: "1%" }}>
-          <button
-            type="button"
-            className="btn btn-outline-primary custom-toggle"
-            data-bs-toggle="button"
-          >
-            <span className="icon-on">All</span>
-            <span className="icon-off">All</span>
-          </button>
-          <button
-            type="button"
-            className="btn btn-outline-secondary custom-toggle"
-            data-bs-toggle="button"
-          >
-            <span className="icon-on">Returnable</span>
-            <span className="icon-off">Returnable</span>
-          </button>
-          <button
-            type="button"
-            className="btn btn-outline-success custom-toggle active"
-            data-bs-toggle="button"
-          >
-            <span className="icon-on">Non Returnable</span>
-            <span className="icon-off">Non Returnable</span>
-          </button>
-          <button
-            type="button"
-            className="btn btn-soft-warning custom-toggle active"
-            data-bs-toggle="button"
-          >
-            <span className="icon-on">Job Work</span>
-            <span className="icon-off">Job Work</span>
-          </button>
-          <button
-            type="button"
-            className="btn btn-soft-danger custom-toggle"
-            data-bs-toggle="button"
-          >
-            <span className="icon-on">Cancelled</span>
-            <span className="icon-off">Cancelled</span>
-          </button>
+        <div className='m-0' style={{alignItems:"center"}}>
+
+<CustomBtn options={options}/>
+</div>
         </div>
 
         <div className="row">

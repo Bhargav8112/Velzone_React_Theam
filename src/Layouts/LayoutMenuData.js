@@ -9,6 +9,7 @@ const Navdata = () => {
     const [isNonReturnGatepass, setIsNonReturnGatepass] = useState(false);
     const [isJobWorkGatepass, setIsJobWorkGatepass] = useState(false);
     const [isDetailsJobWorkGatepass, setIsDetailsJobWorkGatepass] = useState(false);
+    const [isHistoryGatepass, setHistoryGatepass] = useState(false);
 
     
 
@@ -99,7 +100,21 @@ const Navdata = () => {
             stateVariables: isDetailsJobWorkGatepass,
             click: function (e) {
                 e.preventDefault();
-                setIsJobWorkGatepass(!isDetailsJobWorkGatepass);
+                setIsDetailsJobWorkGatepass(!isDetailsJobWorkGatepass);
+              
+                updateIconSidebar(e);
+            },
+            
+        },
+        {
+            id: "History",
+            label: "History",
+            icon: "ri-dashboard-2-line",
+            link: "/History",
+            stateVariables: isHistoryGatepass,
+            click: function (e) {
+                e.preventDefault();
+                setHistoryGatepass(!isHistoryGatepass);
               
                 updateIconSidebar(e);
             },
