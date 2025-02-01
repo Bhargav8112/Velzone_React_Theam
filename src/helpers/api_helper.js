@@ -80,6 +80,7 @@ class APIClient {
    * Updates data
    */
   update = (url, data) => {
+    console.log(data);
     return axios.patch(url, data);
   };
 

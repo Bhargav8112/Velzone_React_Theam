@@ -21,14 +21,13 @@ import Offlinepage from "../pages/AuthenticationInner/Errors/Offlinepage";
 //login
 import Login from "../pages/Authentication/Login";
 import ForgetPasswordPage from "../pages/Authentication/ForgetPassword";
-import Logout from "../pages/Home/login";
+import Logout from "../pages/Authentication/Logout";
 import Register from "../pages/Authentication/Register";
 
 import ReturnablePass from "../pages/Home/ReturnablePass";
 import NonReturnablePass from "../pages/Home/NoneReturnablePass";
 
  
-import abc from "../pages/Home/login";
  
 // User Profile
 import UserProfile from "../pages/Authentication/user-profile";
@@ -36,6 +35,10 @@ import Home from "../pages/Home/Home";
 import JobWorkPass from "../pages/Home/JobWorkPass";
 import DetailOfJobWork from "../pages/Home/DetailOfJobWork";
 import History from "../pages/Home/History";
+import Recive from "../pages/Home/Recive";
+import Report from "../pages/Home/Report";
+import Version from "../pages/Home/Version";
+import QueryForApp from "../pages/Home/QueryForApp";
 // import Home from "../pages/";
 
   
@@ -46,6 +49,10 @@ const authProtectedRoutes = [
   { path: "/JobWork", component: <JobWorkPass /> },
   { path: "/DetailsOfJobWork", component: <DetailOfJobWork /> },
   { path: "/History", component: <History /> },
+  { path: "/Recive", component: <Recive /> },
+  { path: "/Report", component: <Report /> },
+  { path: "/Qapp", component: <QueryForApp /> },
+  { path: "/Version", component: <Version /> },
 
 
   { path: "/profile", component: <UserProfile /> },
@@ -60,7 +67,8 @@ const authProtectedRoutes = [
 const publicRoutes = [
   // Authentication Page
   { path: "/logout", component: <Logout /> },
-  { path: "/login", component: <Logout /> },
+  { path: "/login", component: <Login /> },
+ 
   { path: "/forgot-password", component: <ForgetPasswordPage /> },
   { path: "/register", component: <Register /> },
   //AuthenticationInner pages

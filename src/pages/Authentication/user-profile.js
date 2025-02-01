@@ -50,7 +50,7 @@ const UserProfile = () => {
         sessionStorage.setItem("authUser", JSON.stringify(obj));
       }
 
-      setUserName(obj.data.first_name);
+      setUserName(obj.data.email);
       setemail(obj.data.email);
       setidx(obj.data._id || "1");
 

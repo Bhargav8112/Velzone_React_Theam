@@ -1,6 +1,7 @@
 import React  ,{ useState } from 'react'
 import HistoryTable from '../Component/HistoryTable'
 import CustomBtn from '../Component/CustomeBtn'
+import CostomeDropdown from '../Component/CostomeDropdown';
 
 const History = () => {
     
@@ -42,37 +43,8 @@ const History = () => {
          
          
       ];
-    const  JobWorkPassData = [
-        {
-            sr_no : "1",
-        
-        
-        }
-        
-        
-          ]
-          
-          const headingData = [{
-            sr_no : "Gatepass ID",
-            Material_Name :"Line",
-            Raw_Qty:"Supplier Name",
-            Total_Material_Weight:"Creator Name",
-           Total_Material_Cost :"",
-             Part_Name : "Status",
-             Job_Num:"Details",
-             cancel:"cancel",
-             View:"View",
-        
-            
-        
-          }]
-          const options = [
-            { id: 'success-outlined', label: 'CREATED', style: 'success' },
-            { id: 'primary-outlined', label: 'DISPATCHED', style: 'primary' },
-            { id: 'secondary-outlined', label: 'PARTIAL ARRIVED', style: 'secondary' },
-            { id: 'warning-outlined', label: 'ARRIVED', style: 'warning' },
-            { id: 'danger-outlined', label: 'CANCELLED', style: 'danger' },
-          ];
+    
+         
             const handleEdit = (item) => {
                 console.log("Editing item:", item);
                 // You can implement your editing logic here
@@ -84,42 +56,35 @@ const History = () => {
               };
   return (
     <div className='page-content'>
-        <div className='row' style={{justifyContent:"center"}}>
-            <div className='col-2'>
+  
+<div className='row justify-content-center m-0'>
+<div className="col-9">
 
-        <select
-  className="form-select rounded-pill mb-3"
-  aria-label="Default select example"
->
-  <option selected="">All</option>
-
-  <option value={1}>Returnable</option>
-  <option value={2}>Non Returnable</option>
-  <option value={3}>JobWork</option>
- 
-</select>
-    </div>
-    <div className='col-2'>
-
-    <div className="input-group">
-  <input
-    type="text"
-    className="form-control"
-    aria-label="Recipient's username"
-    aria-describedby="button-addon2"
-  />
-  <button className="btn btn-outline-secondary" type="button" id="button-addon2">
-    <i className='ri-search-2-line'></i>
-  </button>
+<CostomeDropdown/>
 </div>
 
-    </div>
 
-        </div>
-        <div className='m-0' style={{alignItems:"center"}}>
+<div className='col-3 '>
+
+<div className="input-group">
+<input
+type="text"
+className="form-control"
+aria-label="Recipient's username"
+aria-describedby="button-addon2"
+/>
+<button className="btn btn-outline-secondary" type="button" id="button-addon2">
+<i className='ri-search-2-line'></i>
+</button>
+</div>
+
+</div> 
+</div>
+
+        {/* <div className='m-0' style={{alignItems:"center"}}>
 
           <CustomBtn options={options}/>
-        </div>
+        </div> */}
         <div className='p-3 card'>
             <div className='card-body'>
 

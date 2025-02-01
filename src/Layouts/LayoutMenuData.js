@@ -10,6 +10,10 @@ const Navdata = () => {
     const [isJobWorkGatepass, setIsJobWorkGatepass] = useState(false);
     const [isDetailsJobWorkGatepass, setIsDetailsJobWorkGatepass] = useState(false);
     const [isHistoryGatepass, setHistoryGatepass] = useState(false);
+    const [isReciveGatepass, setReciveGatepass] = useState(false);
+    const [isReportGatepass, setReportGatepass] = useState(false);
+    const [isVersionGatepass, setVersionGatepass] = useState(false);
+    const [isQappGatepass, setQappGatepass] = useState(false);
 
     
 
@@ -115,6 +119,64 @@ const Navdata = () => {
             click: function (e) {
                 e.preventDefault();
                 setHistoryGatepass(!isHistoryGatepass);
+              
+                updateIconSidebar(e);
+            },
+            
+        },
+        {
+            id: "Recive",
+            label: "Recive",
+            icon: "ri-dashboard-2-line",
+            link: "/Recive",
+            stateVariables: isReciveGatepass,
+            click: function (e) {
+                e.preventDefault();
+                setReciveGatepass(!isReciveGatepass);
+              
+                updateIconSidebar(e);
+            },
+            
+        },
+        {
+            id: "Report",
+            label: "Report",
+            icon: "ri-dashboard-2-line",
+            link: "/Report",
+            stateVariables: isReportGatepass,
+            click: function (e) {
+                e.preventDefault();
+                setReportGatepass(!isReportGatepass);
+              
+                updateIconSidebar(e);
+            },
+            
+        },
+     
+        {
+            id: "Query_For_App",
+            label: "Query For App",
+            icon: "ri-dashboard-2-line",
+            link: "/Qapp",
+            stateVariables: isQappGatepass,
+            click: function (e) {
+                e.preventDefault();
+                setQappGatepass(!isQappGatepass);
+              
+                updateIconSidebar(e);
+            },
+            
+        },
+     
+        {
+            id: "Version",
+            label: "Version",
+            icon: "ri-dashboard-2-line",
+            link: "/Version",
+            stateVariables: isVersionGatepass,
+            click: function (e) {
+                e.preventDefault();
+                setVersionGatepass(!isVersionGatepass);
               
                 updateIconSidebar(e);
             },

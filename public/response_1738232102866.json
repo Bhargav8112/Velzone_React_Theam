@@ -1,0 +1,747 @@
+[
+  {
+    "userName": "Kalpesh.lambariya",
+    "password": "KLP@23",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Aagam.Dasadiya",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Sandip.Patil",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Hitesh.kamejaliya",
+    "password": "HTH@98",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Vimal.Kodiya",
+    "password": "VML@19",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Toufik.Chauhan",
+    "password": "TUK@42",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Umesh.Solanki",
+    "password": "UEH@49",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Kuldip.Zala",
+    "password": "KLP@01",
+    "emp_Position": "Shop Floor CNC"
+  },
+  {
+    "userName": "Devendra.Kanzariya",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Aayushi.Sanghvi",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Nishant.Dabhi",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Triya.Raval",
+    "password": "SSWHITE",
+    "emp_Position": "Purchase"
+  },
+  {
+    "userName": "Ahmed.Pathan",
+    "password": "APN@456",
+    "emp_Position": "Administrator"
+  },
+  {
+    "userName": "Jagrut.Pathak",
+    "password": "JRD@222",
+    "emp_Position": "Finance"
+  },
+  {
+    "userName": "Imran.Belim",
+    "password": "SSWHITE",
+    "emp_Position": "Supervisor-Flex"
+  },
+  {
+    "userName": "Sohil.Bloch",
+    "password": "Aryu@7025",
+    "emp_Position": "Supervisor-Quality"
+  },
+  {
+    "userName": "Vimal.Gadhvi",
+    "password": "SSWHITE",
+    "emp_Position": "Supervisor-Flex"
+  },
+  {
+    "userName": "Mukesh.Chavda",
+    "password": "MKH@57",
+    "emp_Position": "Shop Floor FLEX"
+  },
+  {
+    "userName": "Ramesh.Kanzariya",
+    "password": "SSWHITE",
+    "emp_Position": "Supervisor-Flex"
+  },
+  {
+    "userName": "Chandrakant.Parmar",
+    "password": "CND@123",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Bhavya.Shah",
+    "password": "7104",
+    "emp_Position": "Planning"
+  },
+  {
+    "userName": "Kazumi.Parikh",
+    "password": "KZM@444",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Hitesh.Rojasara",
+    "password": "sswhite",
+    "emp_Position": "Supervisor-CNC"
+  },
+  {
+    "userName": "Dashrath.Zala",
+    "password": "6009",
+    "emp_Position": "Production-CNC"
+  },
+  {
+    "userName": "Keyur.Mandaviya",
+    "password": "SSWHITE",
+    "emp_Position": "Production-CNC"
+  },
+  {
+    "userName": "Mrunal.Parmar",
+    "password": "1245",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Aashish.Visaniya",
+    "password": "ASK@123",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Narayan.Desai",
+    "password": "manya9320",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Yuvraj.Parmar",
+    "password": "SSWHITE",
+    "emp_Position": "Production-CNC"
+  },
+  {
+    "userName": "Nikul.Jadeja",
+    "password": "NPL@567",
+    "emp_Position": "Quality-CNC"
+  },
+  {
+    "userName": "Brijesh.Parmar",
+    "password": "SSWHITE",
+    "emp_Position": "Maintenance"
+  },
+  {
+    "userName": "Hiren.Vyas",
+    "password": "HRN@556",
+    "emp_Position": "Account"
+  },
+  {
+    "userName": "Atul.Chavda",
+    "password": "ALT@246",
+    "emp_Position": "Quality-CNC"
+  },
+  {
+    "userName": "Ritesh.Sonkar",
+    "password": "RTS@777",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Sounak.Banerjee",
+    "password": "ssw@7951",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Shirish.Patel",
+    "password": "SRS@123",
+    "emp_Position": "Quality-Flex"
+  },
+  {
+    "userName": "Prerana.Shukla",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Nikunj.Aadeshra",
+    "password": "NKN@666",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Saurabh.Pandya",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "hemang.pipariya",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Mayank.Nimbark",
+    "password": "MYN@855",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Jaldip.Patel",
+    "password": "JLD@111",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Prit.Vora",
+    "password": "PRT@558",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Hinal.Mahera",
+    "password": "HNL@777",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Poojan.Trivedi",
+    "password": "poojan123",
+    "emp_Position": "Production-Flex"
+  },
+  {
+    "userName": "Virendra.Zala",
+    "password": "3007@vvzala",
+    "emp_Position": "Maintenance"
+  },
+  {
+    "userName": "Avinash.Panchal",
+    "password": "AVN@888",
+    "emp_Position": "Supervisor-CNC"
+  },
+  {
+    "userName": "Kartik.Rathod",
+    "password": "KRT@112",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Jalpa.Dangi",
+    "password": "1245",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Pranav.Patel",
+    "password": "pra@76",
+    "emp_Position": "Planning"
+  },
+  {
+    "userName": "Hema.Degama",
+    "password": "2323",
+    "emp_Position": "Purchase"
+  },
+  {
+    "userName": "Bhargav.Solanki",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Kamesh.Thakar",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Abhishek.Pandya",
+    "password": "SSWHITE",
+    "emp_Position": "Quality-CNC"
+  },
+  {
+    "userName": "Pankaj.Pathak",
+    "password": "PKJ@82",
+    "emp_Position": "Store"
+  },
+  {
+    "userName": "Bhavya.Dhodakiya",
+    "password": "SSWHITE",
+    "emp_Position": "Account"
+  },
+  {
+    "userName": "Keval.Chanpura",
+    "password": "SSWHITE",
+    "emp_Position": "Planning"
+  },
+  {
+    "userName": "Shivang.Gohel",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Aayushi.Gandhi",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Rajan.Gohel",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Rushi.Purohit",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Nainesh.Patel",
+    "password": "9664891790",
+    "emp_Position": "Production-Flex"
+  },
+  {
+    "userName": "Priyal.Gohil",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Neha.Pandya",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Chesta.Patel",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Dharmik.Mathasoliya",
+    "password": "SSWDPATEL",
+    "emp_Position": "Production-Flex"
+  },
+  {
+    "userName": "Mahesh.Gabu",
+    "password": "SSWHITE",
+    "emp_Position": "Production-Flex"
+  },
+  {
+    "userName": "Tatvesh.Shah",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Riddhi.Raval",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Jaydev.Lakum",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Vicky.Solanki",
+    "password": "SSWHITE",
+    "emp_Position": "Production-CNC"
+  },
+  {
+    "userName": "Bhrati.Raval",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Dharamveer.Zala",
+    "password": "Veer@9920",
+    "emp_Position": "Planning"
+  },
+  {
+    "userName": "Jimit.Thakkar",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Taquir.Sama",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Raj.Goradiya",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Darshit.Desai",
+    "password": "darshit",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Arbaz.Shekh",
+    "password": "SSWHITE",
+    "emp_Position": "Maintenance"
+  },
+  {
+    "userName": "Ashvini.Mehta",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Shivendra.Mishra",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Yogesh.Jamod",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Umang.Rathod",
+    "password": "SSWHITE",
+    "emp_Position": "Maintenance"
+  },
+  {
+    "userName": "Manav.Trivedi",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Dharmesh.Mori",
+    "password": "SSW123",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Urmi.Parmar",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Kishan.Rathod",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Hardik.Patadiya",
+    "password": "SSWHITE",
+    "emp_Position": "Quality-CNC"
+  },
+  {
+    "userName": "Kishan.Chavda",
+    "password": "SSWHITE",
+    "emp_Position": "Production-Flex"
+  },
+  {
+    "userName": "Paritosh.Dholakiya",
+    "password": "PRK@234",
+    "emp_Position": "Management Representative"
+  },
+  {
+    "userName": "Kirendra.Zala",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "Dharmanshu.Dave",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Dhaval.Jani",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Kuldeep.Rana",
+    "password": "shalaka@9407",
+    "emp_Position": "Production-CNC"
+  },
+  {
+    "userName": "Harshjit.Somani",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Ramiz.Talpada",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Akil.Padhiyar",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Om.Raval",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Nikunj.Panchasara",
+    "password": "SSWHITE",
+    "emp_Position": "Planning"
+  },
+  {
+    "userName": "Kausha.Jayswal",
+    "password": "SSWHITE",
+    "emp_Position": "Purchase"
+  },
+  {
+    "userName": "Kinjal.Makvana",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Yash.Trivedi",
+    "password": "SSWHITE",
+    "emp_Position": "Production-Flex"
+  },
+  {
+    "userName": "Krunal.Dave",
+    "password": "SSWHITE",
+    "emp_Position": "Purchase"
+  },
+  {
+    "userName": "Jigar.Vyas",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Unnati.Parmar",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Manthan.Raval",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Faizal.Multani",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Vishvraj.Rana",
+    "password": "vishvraj2810",
+    "emp_Position": "Quality-CNC"
+  },
+  {
+    "userName": "Qa.Flex",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Shivpal.Zala",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Qa.Cnc",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Bhakti.Jadhav",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Administrator",
+    "password": "ahbarp#6008",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Jeni.Joshi",
+    "password": "SSWHITE",
+    "emp_Position": "Account"
+  },
+  {
+    "userName": "Dhruv.Kansara",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Hitesh.Chauhan",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Vedant.Raval",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Gautam.Bhusadiya",
+    "password": "SSWHITE",
+    "emp_Position": "Production-CNC"
+  },
+  {
+    "userName": "Hitesh.Rathod",
+    "password": "SSWHITE",
+    "emp_Position": "Production-CNC"
+  },
+  {
+    "userName": "Arsh.Koradiya",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-CNC"
+  },
+  {
+    "userName": "Mohin.Shekh",
+    "password": "SSWHITE",
+    "emp_Position": "HR"
+  },
+  {
+    "userName": "Bhargav.Shukla",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Dwiti.Oswal",
+    "password": "SSWHITE",
+    "emp_Position": "IT"
+  },
+  {
+    "userName": "Mohini.Popatiya",
+    "password": "SSWHITE",
+    "emp_Position": "Finance"
+  },
+  {
+    "userName": "Dharmik.Kavaiya",
+    "password": "SSWHITE",
+    "emp_Position": "Manufacturing-Flex"
+  },
+  {
+    "userName": "admin",
+    "password": "admin",
+    "emp_Position": ""
+  },
+  {
+    "userName": "dustin42",
+    "password": "DUS@369",
+    "emp_Position": ""
+  },
+  {
+    "userName": "gate.entry",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Trial.Abc",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Brian.Servedio",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Shiv.Agarwal",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Anna.Patralska",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Meta.CNC",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "mitk21",
+    "password": "MTC@555",
+    "emp_Position": ""
+  },
+  {
+    "userName": "atul07",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "han24",
+    "password": "HAN@788",
+    "emp_Position": ""
+  },
+  {
+    "userName": "viewer",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Rachit.Gupta",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Tanuj.Pujara",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "adam12",
+    "password": "ADM@789",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Jash.Kamdar",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "santosh12",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "moh12",
+    "password": "MOH@745",
+    "emp_Position": ""
+  },
+  {
+    "userName": "User",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "hr",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Meta.Maintenance",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "aus53",
+    "password": "AUS@787",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Meta.Tool",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Ruinan.Cen",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  },
+  {
+    "userName": "Meta.Flex",
+    "password": "SSWHITE",
+    "emp_Position": ""
+  }
+]
