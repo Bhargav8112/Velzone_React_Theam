@@ -12,7 +12,6 @@ const GatepassTable = ({data,onEdit, onDelete}) => {
           <th scope="col">Description of Goods</th>
           <th scope="col">	Qty</th>
           <th scope="col">Price</th>
-          <th scope="col">Remarks</th>
           <th scope="col">Edit</th>
           <th scope="col">Delete</th>
         </tr>
@@ -21,12 +20,11 @@ const GatepassTable = ({data,onEdit, onDelete}) => {
         {data.map((item, index) => (
           <tr key={index}>
              
-            
-            <td>{item.sr_no}</td>
-            <td>{item.DOG}</td>
-            <td>{item.Qty}</td>
-            <td>{item.Price}</td>
-            <td>{item.Remarks}</td>
+             <td>{index + 1}</td>
+             
+             <td>{item.descriptionofgoods || "N/A"}</td>
+        <td>{item.qty}</td>
+        <td>{item.price}</td>
             <td>
                 {/* Edit Button */}
                 <button className="btn btn-primary" onClick={() => onEdit(item)}>
@@ -43,7 +41,9 @@ const GatepassTable = ({data,onEdit, onDelete}) => {
           </tr>
         ))}
       </tbody>
+     
     </table>
+ 
   </div>
   )
 }

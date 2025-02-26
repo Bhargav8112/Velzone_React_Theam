@@ -30,7 +30,7 @@ const UserProfile = () => {
   const dispatch = useDispatch();
 
   const [email, setemail] = useState("admin@gmail.com");
-  const [idx, setidx] = useState("1");
+  const [possition, setpossition] = useState("1");
 
   const [userName, setUserName] = useState("Admin");
 
@@ -50,9 +50,10 @@ const UserProfile = () => {
         sessionStorage.setItem("authUser", JSON.stringify(obj));
       }
 
-      setUserName(obj.data.email);
-      setemail(obj.data.email);
-      setidx(obj.data._id || "1");
+      setUserName(obj.data.username);
+    
+      setemail(obj.data.username);
+      setpossition(obj.data.position || " ");
 
       setTimeout(() => {
         dispatch(resetProfileFlag());
@@ -68,7 +69,7 @@ const UserProfile = () => {
 
     initialValues: {
       first_name: userName || 'Admin',
-      idx: idx || '1',
+      possition: possition || '1',
     },
     validationSchema: Yup.object({
       first_name: Yup.string().required("Please Enter Your UserName"),
@@ -102,7 +103,7 @@ const UserProfile = () => {
                       <div className="text-muted">
                         <h5>{userName || "Admin"}</h5>
                         <p className="mb-1">Email Id : {email}</p>
-                        <p className="mb-0">Id No : #{idx}</p>
+                        <p className="mb-0">Possition : {possition}</p>
                       </div>
                     </div>
                   </div>
@@ -140,7 +141,7 @@ const UserProfile = () => {
                   {validation.touched.first_name && validation.errors.first_name ? (
                     <FormFeedback type="invalid">{validation.errors.first_name}</FormFeedback>
                   ) : null}
-                  <Input name="idx" value={idx} type="hidden" />
+                  <Input name="possition" value={possition} type="hidden" />
                 </div>
                 <div className="text-center mt-4">
                   <Button type="submit" color="danger">

@@ -19,6 +19,10 @@ import { changeSidebarVisibility } from '../store/actions';
 import { useSelector, useDispatch } from "react-redux";
 
 const Header = ({ onChangeLayoutMode, layoutModeType, headerClass }) => {
+      const [possition, setpossition] = useState("1");
+    
+      const [userName, setUserName] = useState("Admin");
+    
     const [search, setSearch] = useState(false);
     const toogleSearch = () => {
         setSearch(!search);
@@ -55,6 +59,8 @@ const Header = ({ onChangeLayoutMode, layoutModeType, headerClass }) => {
             document.body.classList.contains('twocolumn-panel') ? document.body.classList.remove('twocolumn-panel') : document.body.classList.add('twocolumn-panel');
         }
     };
+
+      
     
     return (
         <React.Fragment>
